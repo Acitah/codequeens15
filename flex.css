@@ -1,0 +1,34 @@
+.container{
+    background-color: aqua;
+}
+.childContainer{
+    border: 3px red solid;
+    
+    display: flex;
+    justify-content: space-between;
+}
+/* blue container */
+.blue-container{
+    border: 3px blue solid;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+}
+.flex-items{
+    border: 2px orangered solid;
+    margin: 5px;
+    height: 80px;
+    width: 50px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
